@@ -25,6 +25,7 @@ header {
         width: 48px;
         height: 100%;
         border-left: 1px solid #7070702a;
+        border-right: 1px solid #7070702a;
 
         .language-switch {
             a {
@@ -45,7 +46,7 @@ header {
         justify-content: center;
         width: 125px;
         height: 100%;
-        border-left: 1px solid #7070702a;
+        border-right: 1px solid #7070702a;
 
         a {
             display: flex;
@@ -70,7 +71,6 @@ header {
         justify-content: center;
         width: 65px;
         height: 100%;
-        border-left: 1px solid #7070702a;
         text-align: center;
 
         button {

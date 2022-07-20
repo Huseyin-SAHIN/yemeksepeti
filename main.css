@@ -21,6 +21,7 @@ header .language-wrapper {
   width: 48px;
   height: 100%;
   border-left: 1px solid rgba(112, 112, 112, 0.1647058824);
+  border-right: 1px solid rgba(112, 112, 112, 0.1647058824);
 }
 header .language-wrapper .language-switch a {
   text-decoration: none;
@@ -35,7 +36,7 @@ header .user-wrapper {
   justify-content: center;
   width: 125px;
   height: 100%;
-  border-left: 1px solid rgba(112, 112, 112, 0.1647058824);
+  border-right: 1px solid rgba(112, 112, 112, 0.1647058824);
 }
 header .user-wrapper a {
   display: flex;
@@ -56,7 +57,6 @@ header .vendor-cart-icon {
   justify-content: center;
   width: 65px;
   height: 100%;
-  border-left: 1px solid rgba(112, 112, 112, 0.1647058824);
   text-align: center;
 }
 header .vendor-cart-icon button {
