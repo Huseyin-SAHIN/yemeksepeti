@@ -9,6 +9,7 @@ header {
   align-items: center;
   height: 64px;
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.12);
+  background-color: white;
 }
 header .logo-wrapper {
   flex: 1 0 auto;
@@ -62,4 +63,7 @@ header .vendor-cart-icon {
 header .vendor-cart-icon button {
   background-color: white;
   border: 0;
+}
+header .vendor-cart-icon button a span svg path {
+  fill: #EA004B;
 }/*# sourceMappingURL=main.css.map */

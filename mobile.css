@@ -1,0 +1,19 @@
+@media screen and (max-width: 959px) {
+  header .logo-wrapper {
+    text-align: center;
+    order: 1;
+  }
+  header .language-wrapper {
+    display: none;
+  }
+  header .user-wrapper {
+    width: 64px;
+    border: 0;
+  }
+  header .user-wrapper a span {
+    display: none;
+  }
+  header .vendor-cart-icon {
+    order: 1;
+  }
+}/*# sourceMappingURL=mobile.css.map */

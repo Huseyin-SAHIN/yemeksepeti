@@ -9,13 +9,13 @@ header {
     align-items: center;
     height: 64px;
     box-shadow: 0 0.2rem 1rem rgb(0 0 0 / 12%);
+    background-color: white;
 
     .logo-wrapper {
         flex: 1 0 auto;
         margin-left: 1.5rem;
-        a{
 
-        }
+        a {}
     }
 
     .language-wrapper {
@@ -54,7 +54,6 @@ header {
             align-items: center;
             justify-content: center;
 
-
             span {
                 color: #333;
                 font-size: 12px;
@@ -76,8 +75,15 @@ header {
         button {
             background-color: white;
             border: 0;
+
             a {
-                span {}
+                span {
+                    svg {
+                        path {
+                            fill: #EA004B;
+                        }
+                    }
+                }
             }
         }
     }
