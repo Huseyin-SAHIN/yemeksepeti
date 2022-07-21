@@ -1,4 +1,5 @@
 body {
+    background-color: #F8F8F8;
     font-family: "Open Sans", Arial, sans-serif;
     padding: 0;
     margin: 0;
@@ -14,8 +15,6 @@ header {
     .logo-wrapper {
         flex: 1 0 auto;
         margin-left: 1.5rem;
-
-        a {}
     }
 
     .language-wrapper {
@@ -88,4 +87,40 @@ header {
         }
     }
 
+}
+
+.hero-section {
+    .hero-section-content {
+        width: 100%;
+        max-width: 1425px;
+        margin-left: auto;
+        margin-right: auto;
+        .hero-section-text {
+            padding: 160px 0 48px 0;
+            width: 70%;
+            h1 {
+                strong {}
+            }
+        }
+
+        .hero-section-form {
+            width: 70%;
+            background-color: white;
+            padding: 1rem;
+
+            form {
+                position: relative;
+
+                .address-search-container {
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        padding: 1.5rem;
+                        border-radius: 10px;
+                        border: 1px solid #707070;
+                    }
+                }
+            }
+        }
+    }
 }
