@@ -1,16 +1,17 @@
 body {
-    background-color: #F8F8F8;
     font-family: "Open Sans", Arial, sans-serif;
     padding: 0;
     margin: 0;
+    
 }
 
 header {
     display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
     align-items: center;
     height: 64px;
-    box-shadow: 0 0.2rem 1rem rgb(0 0 0 / 12%);
-    background-color: white;
 
     .logo-wrapper {
         flex: 1 0 auto;
@@ -90,14 +91,27 @@ header {
 }
 
 .hero-section {
+    .hero-city-yemeksepeti {
+        background-image: url(resimler/hero-city-yemeksepeti.jpg);
+        z-index: -1;
+        position: absolute;
+        height: 618px;
+        width: 50%;
+        right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     .hero-section-content {
         width: 100%;
         max-width: 1425px;
         margin-left: auto;
         margin-right: auto;
+
         .hero-section-text {
             padding: 160px 0 48px 0;
             width: 70%;
+
             h1 {
                 strong {}
             }
@@ -105,12 +119,13 @@ header {
 
         .hero-section-form {
             width: 70%;
-            background-color: white;
             padding: 1rem;
+            background: white;
+            box-shadow: 0 0.3rem 2rem rgb(0 0 0 / 10%);
+
 
             form {
                 position: relative;
-
                 .address-search-container {
                     input {
                         width: 100%;
