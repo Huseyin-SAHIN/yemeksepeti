@@ -29,7 +29,10 @@
 
     .hero-section {
         .hero-section-content {
-        padding: 0 0;
+            padding: 0 0;
+            padding-bottom: 104px;
+
+
             .hero-section-text {
                 width: 75%;
 
@@ -40,7 +43,22 @@
 
             .hero-section-form {
                 width: 100%;
+                padding: 0;
                 box-shadow: none;
+
+                form {
+                    display: block;
+
+                    .address-search-container {
+                        margin-bottom: 16px;
+                    }
+
+                    button {
+                        width: 100%;
+                        margin: 0;
+                        height: 64px;
+                    }
+                }
             }
         }
 
@@ -50,20 +68,27 @@
         max-width: 1425px;
         margin-left: auto;
         margin-right: auto;
-        padding: 0 80px;
+        padding: 0 24px;
 
         .restaurants__list {
             .vendor-list-section {
-                h2 {}
+                h2 {
+                    font-size: 28px;
+                }
 
                 .vendor-list {
-
+                    display: block;
 
                     li {
+                        width: calc(100% - 24px);
+                        max-width: calc(100% - 24px);
+
                         a {
                             figure {
                                 picture {
-                                    img {}
+                                    img {
+                                        max-height: 200px;
+                                    }
                                 }
 
                                 figcaption {

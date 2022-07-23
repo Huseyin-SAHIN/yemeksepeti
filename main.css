@@ -13,6 +13,7 @@ header {
   height: 64px;
   background-color: white;
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.12);
+  z-index: 9;
 }
 header .logo-wrapper {
   flex: 1 0 auto;
@@ -100,6 +101,9 @@ header .vendor-cart-icon button a span svg path {
   line-height: 1.4;
   margin: 0;
   color: #333;
+}
+.hero-section .hero-section-content .hero-section-text h1 span {
+  font-weight: bold;
 }
 .hero-section .hero-section-content .hero-section-form {
   width: 70%;
