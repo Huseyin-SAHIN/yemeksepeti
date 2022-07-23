@@ -86,6 +86,7 @@ header .vendor-cart-icon button a span svg path {
   max-width: 1425px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 80px;
   padding-bottom: 104px;
 }
 .hero-section .hero-section-content .hero-section-text {
@@ -145,6 +146,7 @@ header .vendor-cart-icon button a span svg path {
   max-width: 1425px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 80px;
 }
 .restaurants-container .restaurants__list .vendor-list-section h2 {
   font-size: 36px;
