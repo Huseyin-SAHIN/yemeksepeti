@@ -16,6 +16,9 @@
   header .vendor-cart-icon {
     order: 1;
   }
+  .hero-section .hero-section-content {
+    padding: 0 0;
+  }
   .hero-section .hero-section-content .hero-section-text {
     width: 75%;
   }
@@ -24,9 +27,12 @@
   }
   .hero-section .hero-section-content .hero-section-form {
     width: 100%;
+    box-shadow: none;
   }
   .restaurants-container {
-    padding-left: 48px;
-    padding-right: 48px;
+    max-width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 80px;
   }
 }/*# sourceMappingURL=mobile.css.map */

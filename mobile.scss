@@ -29,6 +29,7 @@
 
     .hero-section {
         .hero-section-content {
+        padding: 0 0;
             .hero-section-text {
                 width: 75%;
 
@@ -39,31 +40,42 @@
 
             .hero-section-form {
                 width: 100%;
+                box-shadow: none;
             }
         }
 
     }
 
     .restaurants-container {
-        padding-left: 48px;
-        padding-right: 48px;
+        max-width: 1425px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 80px;
 
         .restaurants__list {
             .vendor-list-section {
                 h2 {}
 
                 .vendor-list {
+
+
                     li {
                         a {
-                            figure {}
+                            figure {
+                                picture {
+                                    img {}
+                                }
 
-                            picture {}
+                                figcaption {
+                                    h2 {}
 
-                            figcaption {}
+                                    .categories {}
+                                }
 
-                            span {}
-
-                            .categories {}
+                                .tag-container {
+                                    span {}
+                                }
+                            }
                         }
                     }
                 }
