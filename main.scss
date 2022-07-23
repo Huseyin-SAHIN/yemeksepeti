@@ -104,10 +104,11 @@ header {
     }
 
     .hero-section-content {
-        width: 100%;
+        width: 90%;
         max-width: 1425px;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 104px;
 
         .hero-section-text {
             padding: 260px 0 48px 0;
@@ -140,7 +141,7 @@ header {
                     input {
                         width: 100%;
                         height: 100%;
-                        padding: 1.5rem;
+                        padding: 1.4rem;
                         border-radius: 10px;
                         border: 1px solid #70707042;
                     }
@@ -168,6 +169,74 @@ header {
 
                     &:hover {
                         background-color: #be003c;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.restaurants-container {
+    max-width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .restaurants__list {
+        .vendor-list-section {
+            h2 {
+                font-size: 36px;
+                font-weight: 200;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                margin-bottom: 16px;
+            }
+
+            .vendor-list {
+                padding: 0;
+                display: flex;
+                margin: 0 -8px -8px;
+
+                li {
+                    list-style: none;
+                    width: calc(25% - 24px);
+                    max-width: calc(25% - 24px);
+                    margin: 0 12px 40px;
+                    margin-top: 0px;
+                    margin-right: 12px;
+                    margin-bottom: 40px;
+                    margin-left: 12px;
+
+                    a {
+                        cursor: pointer;
+                        color: #EA004B;
+                        transition: color .1s linear;
+                        text-decoration: none;
+
+                        figure {
+                            min-height: 200px;
+                            margin: 0;
+
+                            picture {
+                                img {
+                                    width: 100%;
+                                }
+                            }
+
+                            figcaption {
+                                padding: 8px 0 0;
+
+                                span {
+                                    color: #707070;
+                                    font-size: 1.4rem;
+                                }
+
+                                .categories {}
+                            }
+
+                            .tag-container {
+                                span {}
+                            }
+                        }
                     }
                 }
             }
