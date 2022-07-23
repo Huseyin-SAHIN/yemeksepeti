@@ -22,9 +22,10 @@
   }
   .hero-section .hero-section-content .hero-section-text {
     width: 75%;
+    padding: 144px 0 48px 0;
   }
   .hero-section .hero-section-content .hero-section-text h1 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
   .hero-section .hero-section-content .hero-section-form {
     width: 100%;
