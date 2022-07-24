@@ -106,6 +106,7 @@ header .vendor-cart-icon button a span svg path {
   font-weight: bold;
 }
 .hero-section .hero-section-content .hero-section-form {
+  background-color: white;
   width: 70%;
   padding: 1rem;
   box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
