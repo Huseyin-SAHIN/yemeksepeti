@@ -287,10 +287,16 @@ header {
 }
 
 footer {
+    max-width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 80px;
+
     .footer-wrapper-top {
         .footer-logo-wrapper {
             display: flex;
             justify-content: space-between;
+
             .footer-logo {}
 
             .footer-social {
