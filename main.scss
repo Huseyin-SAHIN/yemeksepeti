@@ -245,6 +245,7 @@ header {
                                     white-space: nowrap;
                                     text-overflow: ellipsis;
                                     padding: 0;
+
                                     li {
                                         display: inline;
                                         margin: 0;
@@ -254,7 +255,8 @@ header {
                                             font-size: 14px;
                                             color: #707070;
                                         }
-                                        .budget-symbol{
+
+                                        .budget-symbol {
                                             color: #5EFFB6;
                                         }
                                     }
@@ -277,6 +279,25 @@ header {
                                 }
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    .footer-wrapper-top {
+        .footer-logo-wrapper {
+            display: flex;
+            .footer-logo {}
+
+            .footer-social {
+                ul {
+                    display: flex;
+
+                    li {
+                        list-style: none;
                     }
                 }
             }
