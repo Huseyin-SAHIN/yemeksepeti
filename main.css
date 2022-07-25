@@ -194,6 +194,24 @@ header .vendor-cart-icon button a span svg path {
   color: #333;
   font-size: 1.2rem;
   font-weight: bold;
+  margin: 0;
+}
+.restaurants-container .restaurants__list .vendor-list-section .vendor-list li a figure figcaption .categories {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0;
+}
+.restaurants-container .restaurants__list .vendor-list-section .vendor-list li a figure figcaption .categories li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.restaurants-container .restaurants__list .vendor-list-section .vendor-list li a figure figcaption .categories li span {
+  font-size: 14px;
+  color: #707070;
+}
+.restaurants-container .restaurants__list .vendor-list-section .vendor-list li a figure figcaption .categories li .budget-symbol {
+  color: #5EFFB6;
 }
 .restaurants-container .restaurants__list .vendor-list-section .vendor-list li a figure .tag-container {
   padding: 0;

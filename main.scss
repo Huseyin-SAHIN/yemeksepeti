@@ -124,7 +124,8 @@ header {
                 line-height: 1.4;
                 margin: 0;
                 color: #333;
-                span{
+
+                span {
                     font-weight: bold;
                 }
             }
@@ -237,9 +238,27 @@ header {
                                     color: #333;
                                     font-size: 1.2rem;
                                     font-weight: bold;
+                                    margin: 0;
                                 }
 
-                                .categories {}
+                                .categories {
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                    padding: 0;
+                                    li {
+                                        display: inline;
+                                        margin: 0;
+                                        padding: 0;
+
+                                        span {
+                                            font-size: 14px;
+                                            color: #707070;
+                                        }
+                                        .budget-symbol{
+                                            color: #5EFFB6;
+                                        }
+                                    }
+                                }
                             }
 
                             .tag-container {
