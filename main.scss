@@ -290,6 +290,7 @@ footer {
     .footer-wrapper-top {
         .footer-logo-wrapper {
             display: flex;
+            justify-content: space-between;
             .footer-logo {}
 
             .footer-social {

@@ -230,6 +230,7 @@ header .vendor-cart-icon button a span svg path {
 
 footer .footer-wrapper-top .footer-logo-wrapper {
   display: flex;
+  justify-content: space-between;
 }
 footer .footer-wrapper-top .footer-logo-wrapper .footer-social ul {
   display: flex;
