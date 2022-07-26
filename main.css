@@ -263,9 +263,14 @@ footer .footer-wrapper-top .footer-logo-wrapper .footer-social ul li a i:hover {
 }
 footer .footer-wrapper-middle {
   position: relative;
+  border-top: 1px solid #ebebeb;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 footer .footer-wrapper-middle .footer-disclaimer {
   position: absolute;
+  top: 24px;
+  left: 0;
 }
 footer .footer-wrapper-middle .footer-nav {
   width: 60%;

@@ -335,9 +335,14 @@ footer {
 
     .footer-wrapper-middle {
         position: relative;
+        border-top: 1px solid #ebebeb;
+        padding-top: 24px;
+        padding-bottom: 24px;
 
         .footer-disclaimer {
             position: absolute;
+            top: 24px;
+            left: 0;
         }
 
         .footer-nav {
