@@ -351,12 +351,13 @@ footer {
 
             ul {
                 text-align: end;
+
                 li {
                     margin-left: 8px;
                     display: inline;
                     list-style: none;
                     white-space: nowrap;
-                    
+
 
                     a {
                         text-decoration: none;
@@ -378,11 +379,18 @@ footer {
                 display: flex;
 
                 li {
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
                     list-style: none;
+                    margin-left: 2rem;
 
                     a {
+                        .img1{
+                            width: 80px;
+                        }
                         img {
-                            width: 40px;
+                            width: 100px;
                         }
                     }
                 }

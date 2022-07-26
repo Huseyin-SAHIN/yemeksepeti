@@ -298,8 +298,15 @@ footer .footer-wrapper-middle .etbis-qr ul {
   display: flex;
 }
 footer .footer-wrapper-middle .etbis-qr ul li {
+  display: flex;
+  text-align: center;
+  align-items: center;
   list-style: none;
+  margin-left: 2rem;
+}
+footer .footer-wrapper-middle .etbis-qr ul li a .img1 {
+  width: 80px;
 }
 footer .footer-wrapper-middle .etbis-qr ul li a img {
-  width: 40px;
+  width: 100px;
 }/*# sourceMappingURL=main.css.map */
