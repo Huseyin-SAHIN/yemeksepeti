@@ -305,6 +305,24 @@ footer {
 
                     li {
                         list-style: none;
+                        margin-left: 1rem;
+
+
+                        a {
+                            i {
+                                color: #CACACA;
+                                border: 1px solid #CACACA;
+                                border-radius: 50%;
+                                padding: 0.5rem;
+                                font-size: 18px;
+
+                                &:hover {
+                                    color: #EA004B;
+                                    border: 1px solid #EA004B;
+                                    transition: 0.3s;
+                                }
+                            }
+                        }
                     }
                 }
             }

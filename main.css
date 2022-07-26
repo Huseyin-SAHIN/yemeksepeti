@@ -243,4 +243,17 @@ footer .footer-wrapper-top .footer-logo-wrapper .footer-social ul {
 }
 footer .footer-wrapper-top .footer-logo-wrapper .footer-social ul li {
   list-style: none;
+  margin-left: 1rem;
+}
+footer .footer-wrapper-top .footer-logo-wrapper .footer-social ul li a i {
+  color: #CACACA;
+  border: 1px solid #CACACA;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 18px;
+}
+footer .footer-wrapper-top .footer-logo-wrapper .footer-social ul li a i:hover {
+  color: #EA004B;
+  border: 1px solid #EA004B;
+  transition: 0.3s;
 }/*# sourceMappingURL=main.css.map */
