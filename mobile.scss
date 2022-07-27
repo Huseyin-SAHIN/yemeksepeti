@@ -35,7 +35,7 @@
 
             .hero-section-text {
                 width: 75%;
-            padding: 144px 0 48px 0;
+                padding: 144px 0 48px 0;
 
                 h1 {
                     font-size: 2.2rem;
@@ -103,6 +103,61 @@
                                     span {}
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        padding-left: 24px;
+        padding-right: 24px;
+
+        .footer-wrapper-top {
+            .footer-logo-wrapper {
+                .footer-logo {}
+
+                .footer-social {
+                    ul {
+                        li {
+                            a {
+                                i {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-wrapper-middle {
+
+            .footer-disclaimer {
+                display: none;
+            }
+
+            .footer-nav {
+                width: 100%;
+
+                ul {
+                    text-align: center;
+                    padding: 0;
+
+                    li {
+                        a {}
+                    }
+                }
+            }
+
+            .etbis-qr {
+                ul {
+                    justify-content: center;
+
+                    li {
+                        a {
+                            .img1 {}
+
+                            img {}
                         }
                     }
                 }
