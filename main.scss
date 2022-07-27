@@ -252,7 +252,7 @@ header {
                                         display: inline;
                                         margin: 0;
                                         padding: 0;
-                                        
+
 
                                         span {
                                             font-size: 14px;
@@ -347,6 +347,10 @@ footer {
             left: 0;
         }
 
+        .button-ghost {
+            display: none;
+        }
+
         .footer-nav {
             width: 60%;
             margin-left: auto;
@@ -382,6 +386,7 @@ footer {
                 display: flex;
                 justify-content: end;
                 padding: 0;
+
                 li {
                     display: flex;
                     text-align: center;
@@ -390,9 +395,10 @@ footer {
                     margin-left: 2rem;
 
                     a {
-                        .img1{
+                        .img1 {
                             width: 80px;
                         }
+
                         img {
                             width: 100px;
                         }

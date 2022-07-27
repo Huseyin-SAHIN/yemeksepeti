@@ -273,6 +273,9 @@ footer .footer-wrapper-middle .footer-disclaimer {
   top: 24px;
   left: 0;
 }
+footer .footer-wrapper-middle .button-ghost {
+  display: none;
+}
 footer .footer-wrapper-middle .footer-nav {
   width: 60%;
   margin-left: auto;

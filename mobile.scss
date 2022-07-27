@@ -131,9 +131,19 @@
         }
 
         .footer-wrapper-middle {
+            text-align: center;
 
             .footer-disclaimer {
                 display: none;
+            }
+
+            .button-ghost {
+                display: inline-block;
+                border: 1px solid #EA004B;
+                color: #EA004B;
+                padding: 0.5rem 5rem;
+                margin-bottom: 24px;
+                border-radius: 5px;
             }
 
             .footer-nav {
