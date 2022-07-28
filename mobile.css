@@ -1,4 +1,4 @@
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 768px) {
   header .logo-wrapper {
     text-align: center;
     order: 1;
@@ -16,9 +16,13 @@
   header .vendor-cart-icon {
     order: 1;
   }
+  .hero-section {
+    padding: 0 24px;
+  }
   .hero-section .hero-section-content {
     padding: 0 0;
     padding-bottom: 104px;
+    width: 100%;
   }
   .hero-section .hero-section-content .hero-section-text {
     width: 75%;
