@@ -88,6 +88,9 @@
     text-align: center;
     padding: 0;
   }
+  footer .footer-wrapper-middle .footer-nav ul li {
+    white-space: unset;
+  }
   footer .footer-wrapper-middle .etbis-qr ul {
     justify-content: center;
   }

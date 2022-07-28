@@ -300,18 +300,22 @@ footer {
 
         .footer-logo-wrapper {
             display: flex;
-            justify-content: space-between;
-
 
             .footer-logo {}
 
             .footer-social {
-                ul {
-                    display: flex;
+                width: 100%;
+                display: flex;
+                justify-content: end;
 
+                ul {
+                    margin: 0;
+                    padding: 0;
                     li {
                         list-style: none;
                         margin-left: 1rem;
+                        display: inline-block;
+
 
 
                         a {
@@ -352,7 +356,7 @@ footer {
         }
 
         .footer-nav {
-            width: 60%;
+            width: 50%;
             margin-left: auto;
 
             ul {
