@@ -1,4 +1,4 @@
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 1207px) {
   header .logo-wrapper {
     text-align: center;
     order: 1;
@@ -18,5 +18,8 @@
   }
   .hero-section .hero-section-content .hero-section-text h1 {
     font-size: 2rem;
+  }
+  .restaurants-container .restaurants__list .vendor-list-section .vendor-list {
+    grid-template-columns: repeat(3, 1fr);
   }
 }/*# sourceMappingURL=tablet.css.map */

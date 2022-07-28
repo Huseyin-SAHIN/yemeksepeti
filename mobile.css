@@ -60,10 +60,6 @@
   .restaurants-container .restaurants__list .vendor-list-section .vendor-list {
     display: block;
   }
-  .restaurants-container .restaurants__list .vendor-list-section .vendor-list li {
-    width: calc(100% - 24px);
-    max-width: calc(100% - 24px);
-  }
   .restaurants-container .restaurants__list .vendor-list-section .vendor-list li a figure picture img {
     max-height: 200px;
   }

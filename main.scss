@@ -199,19 +199,13 @@ header {
             }
 
             .vendor-list {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 24px;
                 padding: 0;
-                display: flex;
-                margin: 0 -8px -8px;
 
                 li {
                     list-style: none;
-                    width: calc(25% - 24px);
-                    max-width: calc(25% - 24px);
-                    margin: 0 12px 40px;
-                    margin-top: 0px;
-                    margin-right: 12px;
-                    margin-bottom: 40px;
-                    margin-left: 12px;
 
                     a {
                         cursor: pointer;
@@ -247,10 +241,12 @@ header {
                                     padding: 0;
                                     color: #707070;
 
+
                                     li {
                                         display: inline;
                                         margin: 0;
                                         padding: 0;
+
 
 
                                         span {

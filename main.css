@@ -159,19 +159,13 @@ header .vendor-cart-icon button a span svg path {
   margin-bottom: 16px;
 }
 .restaurants-container .restaurants__list .vendor-list-section .vendor-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
   padding: 0;
-  display: flex;
-  margin: 0 -8px -8px;
 }
 .restaurants-container .restaurants__list .vendor-list-section .vendor-list li {
   list-style: none;
-  width: calc(25% - 24px);
-  max-width: calc(25% - 24px);
-  margin: 0 12px 40px;
-  margin-top: 0px;
-  margin-right: 12px;
-  margin-bottom: 40px;
-  margin-left: 12px;
 }
 .restaurants-container .restaurants__list .vendor-list-section .vendor-list li a {
   cursor: pointer;

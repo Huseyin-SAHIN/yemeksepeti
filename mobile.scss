@@ -86,8 +86,6 @@
                     display: block;
 
                     li {
-                        width: calc(100% - 24px);
-                        max-width: calc(100% - 24px);
 
                         a {
                             figure {
@@ -100,7 +98,12 @@
                                 figcaption {
                                     h2 {}
 
-                                    .categories {}
+                                    .categories {
+                                        li{
+                                            span{};
+                                        }
+                                    }
+
                                 }
 
                                 .tag-container {
