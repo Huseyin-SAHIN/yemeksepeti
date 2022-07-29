@@ -2,6 +2,9 @@
   .hero-section .hero-section-content .hero-section-text h1 {
     font-size: 2rem;
   }
+  .restaurants-container {
+    padding: 0 48px;
+  }
   .restaurants-container .restaurants__list .vendor-list-section .vendor-list {
     grid-template-columns: repeat(3, 1fr);
   }
