@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .restaurants-container .restaurants__list .vendor-list-section .vendor-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}/*# sourceMappingURL=mobile2.css.map */
