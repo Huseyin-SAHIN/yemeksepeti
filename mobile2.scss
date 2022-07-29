@@ -1,36 +1,69 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:883px) {
     header {
 
-        .logo-wrapper {}
+        .logo-wrapper {
+            text-align: center;
+            order: 1;
+        }
 
-        .language-wrapper {}
+        .language-wrapper {
+            display: none;
+        }
 
         .user-wrapper {
+            width: 64px;
+            border: 0;
 
             a {
-                span {}
+                span {
+                    display: none;
+                }
             }
         }
 
-        .vendor-cart-icon {}
+        .vendor-cart-icon {
+            order: 1;
+        }
     }
 
 
     .hero-section {
+        padding: 0 24px;
+
         .hero-section-content {
+            padding: 0 0;
+            padding-bottom: 104px;
+            width: 100%;
+
+
 
             .hero-section-text {
+                width: 75%;
+                padding: 144px 0 48px 0;
 
-                h1 {}
+                h1 {
+                    font-size: 2.2rem;
+                }
             }
 
             .hero-section-form {
+                width: 100%;
+                padding: 0;
+                background-color: rgba(255, 255, 255, 0);
+                box-shadow: none;
 
                 form {
+                    display: block;
 
-                    .address-search-container {}
+                    .address-search-container {
+                        margin-bottom: 16px;
+                    }
 
-                    button {}
+                    button {
+                        width: 100%;
+                        margin: 0;
+                        height: 64px;
+                    }
                 }
             }
         }
@@ -38,27 +71,41 @@
     }
 
     .restaurants-container {
+        max-width: 1425px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 24px;
 
         .restaurants__list {
             .vendor-list-section {
-                h2 {}
+                h2 {
+                    font-size: 28px;
+                }
 
                 .vendor-list {
                     grid-template-columns: repeat(2, 1fr);
-
 
                     li {
 
                         a {
                             figure {
                                 picture {
-                                    img {}
+                                    img {
+                                        max-height: 200px;
+                                    }
                                 }
 
                                 figcaption {
                                     h2 {}
 
-                                    .categories {}
+                                    .categories {
+                                        li {
+                                            span {}
+
+                                            ;
+                                        }
+                                    }
+
                                 }
 
                                 .tag-container {
@@ -73,6 +120,8 @@
     }
 
     footer {
+        padding-left: 24px;
+        padding-right: 24px;
 
         .footer-wrapper-top {
             .footer-logo-wrapper {
@@ -91,17 +140,29 @@
         }
 
         .footer-wrapper-middle {
+            text-align: center;
 
-            .footer-disclaimer {}
+            .footer-disclaimer {
+                display: none;
+            }
 
-            .button-ghost {}
+            .button-ghost {
+                display: inline-block;
+                border: 1px solid #EA004B;
+                color: #EA004B;
+                padding: 0.5rem 5rem;
+                margin-bottom: 24px;
+                border-radius: 5px;
+            }
 
             .footer-nav {
+                width: 100%;
 
                 ul {
+                    text-align: center;
+                    padding: 0;
 
-
-                    li {
+                    li {  
                         a {}
                     }
                 }
@@ -109,6 +170,7 @@
 
             .etbis-qr {
                 ul {
+                    justify-content: center;
 
                     li {
                         a {

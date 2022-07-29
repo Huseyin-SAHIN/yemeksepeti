@@ -1,5 +1,94 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 883px) {
+  header .logo-wrapper {
+    text-align: center;
+    order: 1;
+  }
+  header .language-wrapper {
+    display: none;
+  }
+  header .user-wrapper {
+    width: 64px;
+    border: 0;
+  }
+  header .user-wrapper a span {
+    display: none;
+  }
+  header .vendor-cart-icon {
+    order: 1;
+  }
+  .hero-section {
+    padding: 0 24px;
+  }
+  .hero-section .hero-section-content {
+    padding: 0 0;
+    padding-bottom: 104px;
+    width: 100%;
+  }
+  .hero-section .hero-section-content .hero-section-text {
+    width: 75%;
+    padding: 144px 0 48px 0;
+  }
+  .hero-section .hero-section-content .hero-section-text h1 {
+    font-size: 2.2rem;
+  }
+  .hero-section .hero-section-content .hero-section-form {
+    width: 100%;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+  }
+  .hero-section .hero-section-content .hero-section-form form {
+    display: block;
+  }
+  .hero-section .hero-section-content .hero-section-form form .address-search-container {
+    margin-bottom: 16px;
+  }
+  .hero-section .hero-section-content .hero-section-form form button {
+    width: 100%;
+    margin: 0;
+    height: 64px;
+  }
+  .restaurants-container {
+    max-width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 24px;
+  }
+  .restaurants-container .restaurants__list .vendor-list-section h2 {
+    font-size: 28px;
+  }
   .restaurants-container .restaurants__list .vendor-list-section .vendor-list {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .restaurants-container .restaurants__list .vendor-list-section .vendor-list li a figure picture img {
+    max-height: 200px;
+  }
+  footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  footer .footer-wrapper-middle {
+    text-align: center;
+  }
+  footer .footer-wrapper-middle .footer-disclaimer {
+    display: none;
+  }
+  footer .footer-wrapper-middle .button-ghost {
+    display: inline-block;
+    border: 1px solid #EA004B;
+    color: #EA004B;
+    padding: 0.5rem 5rem;
+    margin-bottom: 24px;
+    border-radius: 5px;
+  }
+  footer .footer-wrapper-middle .footer-nav {
+    width: 100%;
+  }
+  footer .footer-wrapper-middle .footer-nav ul {
+    text-align: center;
+    padding: 0;
+  }
+  footer .footer-wrapper-middle .etbis-qr ul {
+    justify-content: center;
   }
 }/*# sourceMappingURL=mobile2.css.map */

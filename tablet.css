@@ -22,4 +22,7 @@
   .restaurants-container .restaurants__list .vendor-list-section .vendor-list {
     grid-template-columns: repeat(3, 1fr);
   }
+  footer .footer-wrapper-middle .footer-nav ul li {
+    white-space: unset;
+  }
 }/*# sourceMappingURL=tablet.css.map */
