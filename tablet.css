@@ -12,7 +12,7 @@
     text-align: center;
   }
   footer .footer-wrapper-middle .footer-disclaimer {
-    display: none;
+    top: 92px;
   }
   footer .footer-wrapper-middle .button-ghost {
     display: inline-block;
