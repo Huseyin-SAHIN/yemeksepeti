@@ -93,10 +93,22 @@
         }
 
         .footer-wrapper-middle {
+            text-align: center;
 
-            .footer-disclaimer {}
+            .footer-disclaimer {
+                display: none;
 
-            .button-ghost {}
+            }
+
+            .button-ghost {
+                display: inline-block;
+                border: 1px solid #EA004B;
+                color: #EA004B;
+                padding: 0.5rem 0.5rem;
+                width: 50%;
+                margin-bottom: 24px;
+                border-radius: 5px;
+            }
 
             .footer-nav {
 

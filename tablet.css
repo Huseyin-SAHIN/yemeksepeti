@@ -8,6 +8,21 @@
   .restaurants-container .restaurants__list .vendor-list-section .vendor-list {
     grid-template-columns: repeat(3, 1fr);
   }
+  footer .footer-wrapper-middle {
+    text-align: center;
+  }
+  footer .footer-wrapper-middle .footer-disclaimer {
+    display: none;
+  }
+  footer .footer-wrapper-middle .button-ghost {
+    display: inline-block;
+    border: 1px solid #EA004B;
+    color: #EA004B;
+    padding: 0.5rem 0.5rem;
+    width: 50%;
+    margin-bottom: 24px;
+    border-radius: 5px;
+  }
   footer .footer-wrapper-middle .footer-nav ul li {
     white-space: unset;
   }
