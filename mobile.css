@@ -67,14 +67,14 @@
     padding-left: 24px;
     padding-right: 24px;
   }
-  footer .footer-wrapper-middle .footer-nav {
+  footer .footer-wrapper-middle F .footer-nav {
     width: 100%;
   }
-  footer .footer-wrapper-middle .footer-nav ul {
+  footer .footer-wrapper-middle F .footer-nav ul {
     text-align: center;
     padding: 0;
   }
-  footer .footer-wrapper-middle .footer-nav ul li {
+  footer .footer-wrapper-middle F .footer-nav ul li {
     white-space: unset;
   }
   footer .footer-wrapper-middle .etbis-qr ul {

@@ -1,19 +1,4 @@
 @media screen and (max-width:1207px) {
-    header {
-
-        .logo-wrapper {}
-
-        .language-wrapper {}
-
-        .user-wrapper {
-
-            a {
-                span {}
-            }
-        }
-
-        .vendor-cart-icon {}
-    }
 
 
     .hero-section {
@@ -26,15 +11,6 @@
                 }
             }
 
-            .hero-section-form {
-
-                form {
-
-                    .address-search-container {}
-
-                    button {}
-                }
-            }
         }
 
     }
@@ -44,31 +20,10 @@
 
         .restaurants__list {
             .vendor-list-section {
-                h2 {}
 
                 .vendor-list {
                     grid-template-columns: repeat(3, 1fr);
 
-                    li {
-
-                        a {
-                            figure {
-                                picture {
-                                    img {}
-                                }
-
-                                figcaption {
-                                    h2 {}
-
-                                    .categories {}
-                                }
-
-                                .tag-container {
-                                    span {}
-                                }
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -76,21 +31,6 @@
 
     footer {
 
-        .footer-wrapper-top {
-            .footer-logo-wrapper {
-                .footer-logo {}
-
-                .footer-social {
-                    ul {
-                        li {
-                            a {
-                                i {}
-                            }
-                        }
-                    }
-                }
-            }
-        }
 
         .footer-wrapper-middle {
             text-align: center;
@@ -117,23 +57,10 @@
                     li {
                         white-space: unset;
 
-                        a {}
                     }
                 }
             }
 
-            .etbis-qr {
-                ul {
-
-                    li {
-                        a {
-                            .img1 {}
-
-                            img {}
-                        }
-                    }
-                }
-            }
         }
     }
 
