@@ -412,7 +412,9 @@ footer {
     }
 
     .footer-wrapper-bottom {
+        display: flex;
         .footer-popular {
+            margin-right: 24px;
             .text-align-justify {
                 margin: 0;
                 font-weight: 700;

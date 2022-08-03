@@ -322,6 +322,12 @@ footer .footer-wrapper-middle .etbis-qr ul li a .img1 {
 footer .footer-wrapper-middle .etbis-qr ul li a img {
   width: 100px;
 }
+footer .footer-wrapper-bottom {
+  display: flex;
+}
+footer .footer-wrapper-bottom .footer-popular {
+  margin-right: 24px;
+}
 footer .footer-wrapper-bottom .footer-popular .text-align-justify {
   margin: 0;
   font-weight: 700;

@@ -8,6 +8,13 @@
   .restaurants-container .restaurants__list .vendor-list-section .vendor-list {
     grid-template-columns: repeat(3, 1fr);
   }
+  footer {
+    padding: 0 48px;
+    padding-top: 0px;
+    padding-right: 48px;
+    padding-bottom: 0px;
+    padding-left: 48px;
+  }
   footer .footer-wrapper-middle {
     text-align: center;
   }
