@@ -125,6 +125,10 @@ header .vendor-cart-icon button a span svg path {
   border-radius: 10px;
   border: 1px solid rgba(112, 112, 112, 0.2588235294);
 }
+.hero-section .hero-section-content .hero-section-form form .address-search-container input:focus {
+  outline: 0px;
+  border: 1px solid black;
+}
 .hero-section .hero-section-content .hero-section-form form .address-search-container span {
   position: absolute;
   right: 20px;
