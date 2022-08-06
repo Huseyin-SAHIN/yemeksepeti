@@ -369,4 +369,19 @@ footer .footer-wrapper-bottom .PopularAreas p a {
   text-decoration: none;
   color: #666;
   font-size: 15px;
+}
+footer .footer-wrapper-bottom .home-cuisines {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-wrapper-bottom .home-cuisines ul {
+  padding: 0;
+}
+footer .footer-wrapper-bottom .home-cuisines ul li {
+  list-style: none;
+}
+footer .footer-wrapper-bottom .home-cuisines ul li a {
+  color: #EA004B;
+  text-decoration: none;
+  font-size: 15px;
 }/*# sourceMappingURL=main.css.map */

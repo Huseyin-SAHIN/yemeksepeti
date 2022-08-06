@@ -477,5 +477,20 @@ footer {
                 }
             }
         }
+        .home-cuisines{
+            display: flex;
+            justify-content: space-between;
+            ul{
+                padding: 0;
+                li{
+                   list-style: none;
+                   a{
+                   color: #EA004B;
+                   text-decoration: none;
+                   font-size: 15px;
+                   }
+                }
+            }
+        }
     }
 }
