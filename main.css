@@ -326,29 +326,29 @@ footer .footer-wrapper-middle .etbis-qr ul li a .img1 {
 footer .footer-wrapper-middle .etbis-qr ul li a img {
   width: 100px;
 }
-footer .footer-wrapper-bottom {
+footer .footer-wrapper-bottom .footer-popular-center {
   display: flex;
 }
-footer .footer-wrapper-bottom .footer-popular {
+footer .footer-wrapper-bottom .footer-popular-center .footer-popular {
   margin-right: 24px;
 }
-footer .footer-wrapper-bottom .footer-popular .text-align-justify {
+footer .footer-wrapper-bottom .footer-popular-center .footer-popular .text-align-justify {
   margin: 0;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.4rem;
   line-height: 1.6;
 }
-footer .footer-wrapper-bottom .footer-popular .text-align-justify a {
+footer .footer-wrapper-bottom .footer-popular-center .footer-popular .text-align-justify a {
   font-size: 14px;
   text-decoration: none;
   color: #707070;
   transition: color 0.1s linear;
 }
-footer .footer-wrapper-bottom .footer-popular .text-align-justify a:hover {
+footer .footer-wrapper-bottom .footer-popular-center .footer-popular .text-align-justify a:hover {
   color: #EA004B;
 }
-footer .footer-wrapper-bottom .footer-popular p a {
+footer .footer-wrapper-bottom .footer-popular-center .footer-popular p a {
   font-size: 14px;
   text-decoration: none;
   line-height: 1.6;
@@ -356,6 +356,17 @@ footer .footer-wrapper-bottom .footer-popular p a {
   width: 100%;
   margin: 0 0 16px;
 }
-footer .footer-wrapper-bottom .footer-popular p a:hover {
+footer .footer-wrapper-bottom .footer-popular-center .footer-popular p a:hover {
   color: #EA004B;
+}
+footer .footer-wrapper-bottom .PopularAreas {
+  margin-top: 1rem;
+}
+footer .footer-wrapper-bottom .PopularAreas p {
+  text-align: center;
+}
+footer .footer-wrapper-bottom .PopularAreas p a {
+  text-decoration: none;
+  color: #666;
+  font-size: 15px;
 }/*# sourceMappingURL=main.css.map */
