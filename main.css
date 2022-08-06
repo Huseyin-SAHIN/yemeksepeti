@@ -329,6 +329,8 @@ footer .footer-wrapper-middle .etbis-qr ul li a img {
 }
 footer .footer-wrapper-bottom {
   padding-bottom: 48px;
+  border-top: 1px solid #ebebeb;
+  padding-top: 24px;
 }
 footer .footer-wrapper-bottom .footer-popular-center {
   display: flex;
@@ -377,6 +379,7 @@ footer .footer-wrapper-bottom .PopularAreas p a {
 footer .footer-wrapper-bottom .home-cuisines {
   display: flex;
   justify-content: space-between;
+  padding-top: 1rem;
 }
 footer .footer-wrapper-bottom .home-cuisines ul {
   padding: 0;

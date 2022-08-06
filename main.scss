@@ -422,6 +422,8 @@ footer {
 
     .footer-wrapper-bottom {
         padding-bottom: 48px;
+        border-top: 1px solid #ebebeb;;
+        padding-top: 24px;
         .footer-popular-center {
             display: flex;
 
@@ -481,6 +483,7 @@ footer {
         .home-cuisines{
             display: flex;
             justify-content: space-between;
+            padding-top: 1rem;
             ul{
                 padding: 0;
                 li{
