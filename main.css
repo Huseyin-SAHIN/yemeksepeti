@@ -380,6 +380,9 @@ footer .footer-wrapper-bottom .home-cuisines {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 footer .footer-wrapper-bottom .home-cuisines ul {
   padding: 0;
@@ -391,7 +394,4 @@ footer .footer-wrapper-bottom .home-cuisines ul li a {
   color: #EA004B;
   text-decoration: none;
   font-size: 15px;
-}
-footer .footer-wrapper-bottom hr {
-  color: rgba(51, 51, 51, 0.377);
 }/*# sourceMappingURL=main.css.map */
