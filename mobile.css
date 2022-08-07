@@ -157,6 +157,9 @@
     padding-left: 24px;
     padding-right: 24px;
   }
+  footer .footer-wrapper-middle .footer-disclaimer {
+    position: static;
+  }
   footer .footer-wrapper-middle .footer-nav {
     width: 100%;
   }
