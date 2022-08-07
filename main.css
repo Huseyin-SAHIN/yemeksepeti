@@ -343,7 +343,7 @@ footer .footer-wrapper-bottom .footer-popular-center .footer-popular .text-align
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.4rem;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 footer .footer-wrapper-bottom .footer-popular-center .footer-popular .text-align-justify a {
   font-size: 14px;
@@ -353,6 +353,9 @@ footer .footer-wrapper-bottom .footer-popular-center .footer-popular .text-align
 }
 footer .footer-wrapper-bottom .footer-popular-center .footer-popular .text-align-justify a:hover {
   color: #EA004B;
+}
+footer .footer-wrapper-bottom .footer-popular-center .footer-popular p {
+  margin: 0;
 }
 footer .footer-wrapper-bottom .footer-popular-center .footer-popular p a {
   font-size: 14px;
@@ -374,7 +377,7 @@ footer .footer-wrapper-bottom .PopularAreas p {
 footer .footer-wrapper-bottom .PopularAreas p a {
   text-decoration: none;
   color: #666;
-  font-size: 15px;
+  font-size: 14px;
 }
 footer .footer-wrapper-bottom .home-cuisines {
   display: flex;
