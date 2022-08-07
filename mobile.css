@@ -80,6 +80,13 @@
   footer .footer-wrapper-middle .etbis-qr ul {
     justify-content: center;
   }
+  footer .footer-wrapper-bottom .footer-popular-center {
+    display: block;
+  }
+  footer .footer-wrapper-bottom .footer-popular-center .footer-popular {
+    margin: 0;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 883px) {
   header .logo-wrapper {
