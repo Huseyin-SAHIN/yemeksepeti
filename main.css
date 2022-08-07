@@ -334,6 +334,7 @@ footer .footer-wrapper-bottom {
 }
 footer .footer-wrapper-bottom .footer-popular-center {
   display: flex;
+  justify-content: space-between;
 }
 footer .footer-wrapper-bottom .footer-popular-center .footer-popular {
   margin-right: 24px;
