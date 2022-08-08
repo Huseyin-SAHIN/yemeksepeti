@@ -195,7 +195,6 @@ header .vendor-cart-icon button a span svg path {
   margin: 0;
 }
 .restaurants-container .restaurants__list .vendor-list-section .vendor-list li a figure figcaption .categories {
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   padding: 0;
